@@ -2367,8 +2367,10 @@ p.hoverbawah {
     -moz-border-radius: 60px;
 }
 
-.avatar .about-image {
+.about-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: auto;
+    border-radius:10px;
 }
