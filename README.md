@@ -1,9 +1,3 @@
-# spaghetti.ga
-Based of Jekyll default theme and redesign again by me.<br>
-Feel free to use this theme :^)
-<br><br>
-But please don't try to copy anything from my article :p
+# Guilherme Paz's Blog
 
-
-# License
-MIT
+Hi! This is my personal blog. Feel free to browse around and give me a call if you wanna chat about fun development! :)
