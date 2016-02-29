@@ -2360,6 +2360,7 @@ p.hoverbawah {
 }
 
 .avatar {
+    box-sizing: border-box;
     width:150px;
     border:5px solid #009670;
     border-radius: 60px;
