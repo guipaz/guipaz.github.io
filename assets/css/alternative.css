@@ -451,7 +451,7 @@ ul {
 }
 
 .site-nav .page-link:not(:last-child) {
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .trigger .active {
     background: #00AB7F;
@@ -1341,7 +1341,6 @@ ul {
     color: #555;
     float: none;
     padding: 6px 12px;
-    min-width: 293px;
     background-color: #3E3E3E;
     color: #fff;
     padding: 0 0px 12px 0px;
@@ -2366,4 +2365,10 @@ p.hoverbawah {
     border-radius: 60px;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
+}
+
+.avatar .about-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
