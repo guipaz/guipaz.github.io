@@ -450,7 +450,7 @@ ul {
 }
 
 .site-nav .page-link:not(:last-child) {
-    margin-right: 10px;
+    
 }
 .trigger .active {
     background: #00AB7F;
@@ -683,7 +683,7 @@ ul {
     height: 0;
     width: 0;
     position: relative;
-    margin-left: 65px;
+    margin-left: 95px;
     z-index: 0;
 }
 
