@@ -10,7 +10,7 @@ layout: default
 <div class="large-8 columns samping">
  
     {% for post in paginator.posts %}
-    {% if post.categories not contains 'project' %}
+    {% if post.categories contains 'project' == false %}
      <article class="post tag-speeches">
          <div style="padding: 20px;">
     <header class="post-header">
