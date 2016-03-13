@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Testing"
+date: 2016-02-29 09:17:00 -0300
+category: development
+thumbnail: "me.png"
+tags:
+- gamedev
+---
+
+*Hey guys!*
+
+Testing the main page.
