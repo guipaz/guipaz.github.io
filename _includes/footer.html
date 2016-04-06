@@ -33,7 +33,7 @@
         </ul>
       </div>
       <div class="footer-col footer-col-3">
-        <p style="margin-bottom: 5px">Designed by Spaghetti</p>
+        <p style="margin-bottom: 5px">Dark Kimochi design (modified)</p>
         <p>Proudly hosted by <a href="https://pages.github.com/" target="_blank"><span class="octicon octicon-logo-github" style="color: #828282;
     position: relative;
     top: 4px;
@@ -43,9 +43,10 @@
     </div>
   </div>
 </footer>
-<!--- Where Javascript Loaded --->
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-<script type="text/javascript" src="http://iamceege.github.io/tooltipster/js/jquery.tooltipster.js"></script>
+
+<script type="text/javascript" src="/assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.tooltipster.js"></script>
+<script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
 <script>
 $(document).ready(function() {
 	if(location.pathname != "/") {
@@ -54,6 +55,7 @@ $(document).ready(function() {
 });
 
 </script>
+<!--
   <script>
         $(document).ready(function() {
             $('.tooltip-right').tooltipster({
@@ -67,15 +69,16 @@ $(document).ready(function() {
                 position: 'left',
             });
         });
-    </script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.pjax/1.9.6/jquery.pjax.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+    </script>-->
+<script type="text/javascript" src="/assets/js/pace.js"></script>
 <script type="text/javascript" src="/assets/js/jquery-autocomplete.js"></script>
-<script src="/assets/js/responsive_waterfall.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.easy-autocomplete.min.js"></script>
+<script type="text/javascript" src="/assets/js/responsive_waterfall.js"></script>
+<script type="text/javascript" src="/assets/js/jquery.lazyload.min.js"></script>
+<!--<script type="text/javascript" src="/assets/js/jquery.pjax.min.js"></script>-->
 <script>
 
 
-$(document).ready(function(){$(".menu-icon").click(function(){$(".trigger").toggle()})}),$(function(){$(document).pjax("#route","body",{fragment:"body",timeout:1e5,scrollTo:0,push:!0,maxCacheLength:20,replace:!1})}),$(document).on("pjax:error",function(e,n,t,o,c){return c.success(n.responseText,t,n),!1});var options={url:"/gblk.json",getValue:"title",list:{match:{enabled:!0,maxNumberOfElements:5}},template:{type:"links",fields:{link:"url"}},theme:"square"};$("#countries").easyAutocomplete(options),Pace.on("start",function(){$(".pacel").show()}),Pace.on("done",function(){$(".pacel").hide()}),$(function(){$("img").lazyload({})});var waterfall=new Waterfall({containerSelector:".wf-container",boxSelector:".wf-box",minBoxWidth:180});$(document).ready(function(){$(".menu-icon").click(function(){$(".trigger").toggle()})});
+$(document).ready(function(){$(".menu-icon").click(function(){$(".trigger").toggle()})});var options={url:"/gblk.json",getValue:"title",list:{match:{enabled:!0}},template:{type:"links",fields:{link:"url"}},theme:"square"};Pace.on("start",function(){$(".pacel").show()}),Pace.on("done",function(){$(".pacel").hide()}),$(function(){$("img").lazyload({})});var waterfall=new Waterfall({containerSelector:".wf-container",boxSelector:".wf-box",minBoxWidth:180});$(document).ready(function(){$(".menu-icon").click(function(){$(".trigger").toggle()})});
 </script>
-<script id="dsq-count-scr" src="//guipazsblog.disqus.com/count.js" async></script>
+<script id="dsq-count-scr" src="//guipaz.disqus.com/count.js" async></script>

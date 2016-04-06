@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Thoughts about development, fiction and my cats
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://guipaz.github.io" # the base hostname & protocol for your site
-twitter_username: guipaz_
+twitter_username: gstryfe
 github_username:  guipaz
 facebook_username:  gstryfe
 
@@ -24,6 +24,7 @@ gems:
 exclude:
 - node_modules
 
+encoding: utf-8
 # Config
 paginate: 5
 paginate_path: "page/:num"

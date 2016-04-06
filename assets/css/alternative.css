@@ -24,7 +24,7 @@ figure {
 }
 
 body {
-    font: 400 16px/1.5 gidole;
+    font: 400 20px/1.5 gidole;
     color: #fff;
     background-color: #222222;
     -webkit-text-size-adjust: 100%;
@@ -214,6 +214,7 @@ pre>code {
         /* border-bottom: #636363 1px solid; */
         word-wrap: break-word;
         background: #3E3E3E;
+        line-height:1.2;
         /* padding: 20px; */
     }
     .home {
@@ -506,13 +507,14 @@ ul {
 }
 
 .footer-heading {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
+    font-size: 16pt;
 }
 
 .footer-col-wrapper {

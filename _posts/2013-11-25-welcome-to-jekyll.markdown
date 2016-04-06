@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2013-11-25 16:58:04
 categories: jekyll update
-published: true
+published: false
 ---
 
 #Say hello to Jekyll and OpenShift :)
