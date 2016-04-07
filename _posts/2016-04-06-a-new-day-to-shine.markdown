@@ -3,6 +3,7 @@ layout: post
 title: "A new day to shine!"
 date: 2016-02-29 09:17:00 -0300
 category: development
+image: hello.png
 tags:
 - personal
 - gamedev
